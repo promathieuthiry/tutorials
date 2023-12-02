@@ -1,0 +1,144 @@
+.task_wrapper {
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin: 60px 0px;
+}
+
+.task_container {
+  padding: 32px;
+  border-bottom: 1px solid #ebebeb;
+  position: relative;
+}
+
+.task_form {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  align-items: center;
+}
+
+.task_title {
+  color: #000;
+  font-size: 56px;
+  font-weight: 800;
+}
+
+.task_line_text {
+  display: flex;
+  align-items: center;
+  padding: 16px 32px;
+  cursor: pointer;
+}
+
+.task_line_text:nth-last-child(n + 2) {
+  border-bottom: 1px solid #f7f7f7;
+}
+
+.task_line_text:hover {
+  background: #f9faff;
+}
+
+.task_line_text:hover .task_cross {
+  visibility: visible;
+}
+
+.task_text {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  padding-left: 10px;
+  flex: 1;
+}
+
+.task_cross {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid #ebebeb;
+  background: #f2f3ff;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.task_cross:hover {
+  visibility: visible;
+}
+
+.form__field {
+  width: 80%;
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 1.3rem;
+  color: #000;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+  flex: 1;
+
+  &::placeholder {
+    color: transparent;
+  }
+
+  &:placeholder-shown ~ .form__label {
+    font-size: 1.3rem;
+    cursor: text;
+    top: 30px;
+  }
+}
+
+.form__label {
+  position: absolute;
+  top: 10px;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #9b9b9b;
+}
+
+.form__field:focus {
+  ~ .form__label {
+    position: absolute;
+    top: 10px;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #000;
+    font-weight: 700;
+  }
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 2px;
+  border-image: #9b9b9b;
+  border-image-slice: 1;
+}
+/* reset input */
+.form__field {
+  &:required,
+  &:invalid {
+    box-shadow: none;
+  }
+}
+
+.task_button {
+  background: #8790f3;
+  padding: 1em;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  transition: border-radius linear 0.05s, width linear 0.05s;
+  border: 0;
+  color: #fff;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 720px) {
+  .task_wrapper {
+    margin: 60px 20px;
+  }
+}

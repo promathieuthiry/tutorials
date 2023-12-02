@@ -1,0 +1,41 @@
+header {
+  padding: 32px 0px 32px 32px;
+  border-bottom: 1px solid #ebebeb;
+  display: flex;
+}
+
+.header_container_title {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.header_title {
+  color: #000;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.header_subtitle {
+  color: #666;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.header_emoji {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  border: 1px solid #ebebeb;
+  background: #f2f3ff;
+}
+
+@media only screen and (max-width: 720px) {
+  header {
+    padding: 32px 20px 32px 52px;
+  }
+}

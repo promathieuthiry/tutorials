@@ -1,0 +1,10 @@
+.footer_tasks_container {
+  border-top: 1px solid #ebebeb;
+  padding: 24px 0px 24px 32px;
+}
+
+.footer_tasks_title {
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+}

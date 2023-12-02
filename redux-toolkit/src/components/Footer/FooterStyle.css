@@ -1,0 +1,22 @@
+.footer {
+  text-align: center;
+  padding-bottom: 20px;
+  color: #000;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+@keyframes heartbeat {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-2px);
+  }
+}
+
+.footer span {
+  display: inline-block;
+  animation: heartbeat 1s infinite;
+}
