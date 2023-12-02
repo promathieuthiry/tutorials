@@ -1,4 +1,3 @@
-import React from "react";
 import "./FooterStyle.css"; // Assuming you have a CSS file for styling
 
 const Footer = () => {
