@@ -1,6 +1,6 @@
 # Tutorials - A todo app using Redux Toolkit
 
-This tutorial covers building a simple Todo application using Redux Toolkit for state management. The focus is on demonstrating how Redux Toolkit simplifies the process of working with Redux in a React application inspired from this great [design](<https://www.figma.com/file/T5sN874A6Ogst6mjl1yRLW/Todo-List-for-Figma-projects-(Community)?node-id=1%3A285&mode=dev>) spotted on figma.
+This tutorial covers building a simple Todo application using Redux Toolkit for state management. The focus is on demonstrating how Redux Toolkit simplifies the process of working with Redux in a React application inspired from this great [design](https://www.figma.com/community/file/1150744274711591955) spotted on figma.
 
 ## Table of contents
 
@@ -27,7 +27,7 @@ This tutorial covers building a simple Todo application using Redux Toolkit for 
 
 ### Links
 
-- Live Site URL: [netlify](https://redux-toolkit-topaz.vercel.app/)
+- Live Site URL: [vercel](https://redux-toolkit-topaz.vercel.app/)
 
 ## My process
 
