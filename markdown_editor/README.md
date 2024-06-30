@@ -1,30 +1,44 @@
-# React + TypeScript + Vite
+# Tutorials - A markdown editor using @uiw/react-md-editor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This tutorial covers how to create a markdown editor using the [@uiw/react-md-editor library](https://www.npmjs.com/package/@uiw/react-md-editor) and how to integrate into your web application. To illustrate the usage of the library, we will reproduce the Github markdown editor when you open a pull request.
 
-Currently, two official plugins are available:
+## Table of contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Tutorials - A markdown editor using @uiw/react-md-editor](#tutorials---a-markdown-editor-using-uiwreact-md-editor)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [Features](#features)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+  - [Author](#author)
 
-## Expanding the ESLint configuration
+## Overview
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Features
 
-- Configure the top-level `parserOptions` property like this:
+- Create a custom toolbar
+- Overwrite the default css.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### Screenshot
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+![preview](./src/assets/preview_markdown_editor.jpeg)
+![edit](./src/assets/edit_markdown_editor.jpeg)
+
+### Links
+
+- Live Site URL: [vercel](https://markdowneditor-j8n4lo316-mathieus-projects-05c34cfb.vercel.app/)
+
+## My process
+
+### Built with
+
+- @uiw/react-md-editor library
+- Vite
+- React
+- Typescript
+
+## Author
+
+- Website - [mathieuthiry.fr](https://mathieuthiry.fr/)
