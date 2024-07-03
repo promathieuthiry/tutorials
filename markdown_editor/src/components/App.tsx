@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import { MarkdownEditor } from "./markdownEditor/MakdownEditor";
+import { MarkdownEditor } from "./markdownEditor/MarkdownEditor";
 import pullRequestMarkdown from "./markdownEditor/data";
 import Footer from "./footer/Footer";
 

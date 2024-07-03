@@ -28,7 +28,7 @@ This tutorial covers how to create a markdown editor using the [@uiw/react-md-ed
 
 ### Links
 
-- Live Site URL: [vercel](https://markdowneditor-j8n4lo316-mathieus-projects-05c34cfb.vercel.app/)
+- Live Site URL: [vercel](https://reactmarkdowneditor-mathieus-projects-05c34cfb.vercel.app/)
 
 ## My process
 
